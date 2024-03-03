@@ -204,9 +204,9 @@ def main(path):
 
         data = read_files_data(copied_py_files_paths)
 
+        pep8_whitespaces(data)
         pep8_line_ending79(data)
 
-        pep8_whitespaces(data)
         pep8_imports(data)
 
         pep8_before_func_newline(data)
