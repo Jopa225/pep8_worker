@@ -1,14 +1,3 @@
-# Create PEP8 reworker!
-# PEP8 reworker should take one folder and go through all the subfolders looking for all *.py files
-# Open every file and apply following PEP8 rules:
-# Imports
-# TAB and spaces
-# Whitespaces
-# Maximum length of line
-# Spaces between functions
-# In modules
-# In classes
-
 import argparse
 import os
 import re
